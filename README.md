@@ -9,7 +9,7 @@ This script generates fingerprint-level collisions for morgan fingerprints. The 
 
 `python morcata.py -i molecules.sdf -o output.sdf -l 2048 -r 2`
 
-The command used to generate a fingerprint matched molecule for every molecule in `molecules.sdf`, using a morgan fingerprint of radius `3` (ECFP4-like) and length of `2048`, and save the results in the sdf file `output.sdf`. You'll need to have a somewhat recent RDKit installed for this to work.
+The command used to generate a fingerprint matched molecule for every molecule in `molecules.sdf`, using a morgan fingerprint of radius `2` (ECFP4-like) and length of `2048`, and save the results in the sdf file `output.sdf`. You'll need to have a somewhat recent RDKit installed for this to work.
 
 ## Can I use this for inverting fingerprints to the actual structure?
 
